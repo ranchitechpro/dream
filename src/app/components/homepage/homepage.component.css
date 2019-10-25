@@ -1,0 +1,27 @@
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: black;}     /* mouse over link */
+a:active {color: black;}    /* selected link */
+.checked {
+ color: orange;
+}
+/* .unchecked {
+   color: white
+ } */
+
+.card-img-overlay {
+ position: left;
+ top: 10;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1.25rem;
+}
+.card-img-caption .card-text {
+ text-align: bottom;
+ width: 100%;
+ margin: 53% 0;
+ position: absolute;
+ z-index: 1;
+ color: springgreen;
+}
